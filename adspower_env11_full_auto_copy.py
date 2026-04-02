@@ -22,7 +22,7 @@ from playwright.sync_api import sync_playwright
 
 # ============ 全局硬性超时机制 ============
 SCRIPT_START_TIME = time.time()
-MAX_SCRIPT_RUNTIME = 240  # 240秒硬性超时
+MAX_SCRIPT_RUNTIME = 360  # 240秒硬性超时
 
 def check_global_timeout():
     """检查脚本是否运行超过最大时间"""
